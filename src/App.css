@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
+html,body {
+  background-color: #fff;
+  overflow-x: hidden!important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: 'Clash Display', sans-serif!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 767.98px){
+  .desktop {
+    display: none!important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 992px){
+  .mobile {
+    display: none!important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 992px){
+  li.nav-item {
+    padding-left: 30px;
+ }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.nav-link {
+  color: #092767!important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  line-height: 24px;
+}
+
+nav.navbar {
+  background-color: transparent;
+  
+}
+
+.nav-badge {
+  border: 1px solid #092767;
+  border-radius: 4px;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 1px 10px;
+}
+
+.banner {
+  padding: 250px 10px;
+  background: linear-gradient(156.19deg, rgba(37, 99, 235, 0.15) 15.31%, rgba(53, 30, 53, 0) 79.35%);
 }
