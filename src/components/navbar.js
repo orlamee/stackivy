@@ -72,8 +72,8 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  className="btn btn-outline-primary px-4 py-2 ardilla-btn fs-6"
-                  to="/sign-up"
+                  className="btn btn-primary rounded-pill px-4 py-2"
+                  to="/"
                 >
                   Create Account
                 </Link>

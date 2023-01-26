@@ -57,3 +57,28 @@ nav.navbar {
   padding: 250px 10px;
   background: linear-gradient(156.19deg, rgba(37, 99, 235, 0.15) 15.31%, rgba(53, 30, 53, 0) 79.35%);
 }
+
+@media (min-width: 992px){
+  .banner h2 {
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #092767;
+  }
+}
+
+@media (max-width: 767.98px){
+  .banner h2 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #092767;
+  }
+}
+
+.banner h6 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #092767;
+}
