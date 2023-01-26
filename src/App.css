@@ -145,7 +145,7 @@ nav.navbar {
   color: #9CA3AF;
   font-size: 16px;
   line-height: 32px;
-  font-size: 500;
+  font-weight: 500;
 }
 
 .loans {
@@ -156,4 +156,36 @@ nav.navbar {
   .downing {
     padding-top: 100px;
   }
+}
+
+.counter {
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .bg-home {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 120px 317px;
+    background-image: url("./assets/bg-home.svg");
+  }
+}
+
+@media (max-width: 767.98px){
+  .bg-home {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 120px 30px;
+    background-image: url("./assets/bg-home.svg");
+  }
+}
+
+.bg-home h6 {
+  font-size: 30px;
+  line-height: 46px;
+  font-size: 600;
 }

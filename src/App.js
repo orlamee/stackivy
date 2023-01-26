@@ -1,3 +1,4 @@
+import Counter from './components/counter';
 import Hero from './components/hero';
 import LoanFeatures from './components/loanFeatures';
 import Navbar from './components/navbar';
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <LoanFeatures/>
       <SpecialServices/>
+      <Counter/>
     </div>
   );
 }
