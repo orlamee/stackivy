@@ -16,8 +16,8 @@ function HeroSave() {
               Get Started
             </Link>
           </div>
-          <div className="col-md-5 offset-md-1 p-0 text-end">
-            <img src={save} alt="savings" className="img-fluid" />
+          <div className="col-md-5 offset-md-1 p-0 text-end mb-n1">
+            <img src={save} alt="savings" className="img-fluid w-100" />
           </div>
         </div>
         
