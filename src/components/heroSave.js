@@ -6,7 +6,7 @@ function HeroSave() {
     <section className="hero-save">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-4 mb-3 offset-md-2 mt-5" >
+          <div className="col-md-4 mb-3 offset-md-2 herotop" >
             <h2 className="">Build up your savings for a better <span className="future">financial future</span></h2>
             <h6 className="my-5 text-white">Start building up your savings and set up your tomorrow to be better. We are here to help.</h6>
             <Link
