@@ -244,7 +244,16 @@ nav.navbar {
   padding-left: 0;
 }
 
-.footer-bottom .links li, a {
+.footer-bottom .links a {
+  display: block;
+  color: #fff!important;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.footer-bottom .links li {
   display: block;
   color: #fff!important;
   font-size: 13px;
@@ -273,8 +282,11 @@ nav.navbar {
   background-color: #2563EB!important;
 }
 
-.nav-save .nav-link {
+.navsave .nav-link {
   color: #fff!important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  line-height: 24px;
 }
 
 @media (min-width: 992px){
@@ -483,4 +495,21 @@ nav.navbar {
   line-height: 45px;
   font-weight: 500;
   color: #092767;
+}
+
+@media (min-width: 992px){
+  .navdrop {
+    width: 330px;
+    padding: 23px!important;
+    border-radius: 24.5014px!important;
+    border-color: #fff!important;
+  }
+}
+
+.navhome h6 {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #092767;
+  margin-top: 18px;
 }

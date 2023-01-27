@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import savings from "../assets/s.svg";
+import loan from "../assets/l.svg";
+import invest from "../assets/i.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -38,6 +41,27 @@ function Navbar() {
                 >
                   Products 
                 </Link>
+                <ul className="dropdown-menu navdrop">
+                  <li>
+                    <Link to="/savings" className="d-flex flex-row p-2">
+                      <img src={savings} alt="save" className="img-fluid me-3" />
+                      <h6>Savings</h6>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/savings" className="d-flex flex-row p-2">
+                      <img src={invest} alt="save" className="img-fluid me-3" />
+                      <h6>Investment</h6>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/savings" className="d-flex flex-row p-2">
+                      <img src={loan} alt="save" className="img-fluid me-3" />
+                      <h6>Loans</h6>
+                    </Link>
+                  </li>
+                  
+                </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link">
