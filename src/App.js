@@ -1,4 +1,5 @@
 import Counter from './components/counter';
+import Footer from './components/footer';
 import Hero from './components/hero';
 import LoanFeatures from './components/loanFeatures';
 import Navbar from './components/navbar';
@@ -12,6 +13,7 @@ function App() {
       <LoanFeatures/>
       <SpecialServices/>
       <Counter/>
+      <Footer/>
     </div>
   );
 }

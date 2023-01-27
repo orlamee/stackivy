@@ -12,6 +12,9 @@ html,body {
   font-family: 'Clash Display', sans-serif!important;
 }
 
+a {
+  text-decoration: none!important;
+}
 
 @media (max-width: 767.98px){
   .desktop {
@@ -40,7 +43,7 @@ html,body {
 }
 
 nav.navbar {
-  background-color: transparent;
+  background-color: #e7eefd;
   
 }
 
@@ -62,7 +65,7 @@ nav.navbar {
 
 @media (max-width: 767.98px){
   .banner {
-    padding: 100px 10px;
+    padding: 170px 10px 100px 10px;
     background: linear-gradient(156.19deg, rgba(37, 99, 235, 0.15) 15.31%, rgba(53, 30, 53, 0) 79.35%);
   }
 }
@@ -158,6 +161,12 @@ nav.navbar {
   }
 }
 
+@media (min-width: 992px){
+  .topping {
+    padding-top: 70px;
+  }
+}
+
 .counter {
   padding: 100px 20px;
 }
@@ -188,4 +197,74 @@ nav.navbar {
   font-size: 30px;
   line-height: 46px;
   font-size: 600;
+}
+
+.counter p {
+  color: #9CA3AF;
+  font-size: 16px;
+  line-height: 25px;
+  font-size: 500;
+}
+
+.counter span {
+  color: #9CA3AF;
+  font-size: 14px;
+  line-height: 20px;
+  font-size: 500;
+}
+
+.counter h5 {
+  color: #F97316;
+  font-size: 40px;
+  line-height: 32px;
+  font-size: 600;
+}
+
+.footer-bottom {
+  background: #2563EB;
+  padding: 100px 20px 60px 20px;
+}
+
+.footer-bottom p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-bottom h4 {
+  font-size: 13px;
+  color: #fff;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 34px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+}
+
+.footer-bottom .links li, a {
+  display: block;
+  color: #fff!important;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.bottom-line {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #D1D5DB;
+}
+
+.copyright {
+  padding: 25px 0px;
+}
+
+.copyright h6 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
 }
