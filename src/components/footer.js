@@ -18,7 +18,7 @@ function Footer() {
                 <div className="col-sm mb-3">
                   <h4>Products</h4>
                   <ul className="list-unstyled links">
-                    <li><Link to="/">Savings</Link></li>
+                    <li><Link to="/savings">Savings</Link></li>
                     <li><Link to="/">Invest</Link></li>
                     <li><Link to="/">Loan</Link></li>
                   </ul>

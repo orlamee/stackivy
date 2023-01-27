@@ -5,12 +5,14 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import Savings from './pages/savings';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />}></Route>
+    <Route path="/savings" element={<Savings/>}></Route>
   </Routes>
 </BrowserRouter>
 );
