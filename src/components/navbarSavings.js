@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-function Navbar() {
+function NavbarSavings() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg py-4 navbar-light px-1 navhome">
+    <nav className="navbar fixed-top navbar-expand-lg py-4 navbar-light px-1 navsave">
       <div className="container header">
         <Link className="navbar-brand" to="/">
           <img
@@ -41,7 +41,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link">
-                  Business <span className="nav-badge ms-2">Beta</span>
+                  Business <span className="nav-badge ms-2 border-white">Beta</span>
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -72,7 +72,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  className="btn btn-primary rounded-pill px-4 py-2"
+                  className="btn btn-primary btn-save rounded-pill px-4 py-2"
                   to="/"
                 >
                   Create Account
@@ -147,4 +147,4 @@ function Navbar() {
   
 }
 
-export default Navbar;
+export default NavbarSavings;

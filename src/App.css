@@ -35,7 +35,7 @@ a {
 }
 
 
-.nav-link {
+.navhome .nav-link {
   color: #092767!important;
   font-size: 14px!important;
   font-weight: 500!important;
@@ -267,4 +267,220 @@ nav.navbar {
   font-size: 14px;
   line-height: 26px;
   color: #fff;
+}
+
+.navsave {
+  background-color: #2563EB!important;
+}
+
+.nav-save .nav-link {
+  color: #fff!important;
+}
+
+@media (min-width: 992px){
+  .hero-save {
+    background-color: #2563EB;
+    padding: 250px 0px 150px 0px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .hero-save {
+    background-color: #2563EB;
+    padding: 100px 0px;
+  }
+}
+
+.hero-save h2 {
+  font-size: 64px;
+  line-height: 84px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero-save h6 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.future {
+  background: linear-gradient(to right, #FFEB35 15%, #19FD82FC 90%)!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-save {
+  background: #fff!important;
+  color: #092767!important;
+}
+
+.savebetter {
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+  background-image: url("./assets/bgsave.svg");
+}
+
+.savebetter h2 {
+  font-size: 80px;
+  line-height: 98px;
+  color: #092767;
+  font-weight: 600;
+}
+
+.savebetter h6 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #9CA3AF;
+  font-weight: 500;
+}
+
+.emerge {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 260px 0px;
+  background-image: url("./assets/emerge.svg");
+}
+
+.edu {
+  background-image: url("./assets/edu.svg")!important;
+}
+
+.endo {
+  background-image: url("./assets/end.svg")!important ;
+}
+
+.save-top {
+  margin-top: 100px!important;
+}
+
+@media (min-width: 992px){
+  .emerge h3 {
+    font-size: 70px;
+    /* line-height: 98px; */
+    color: #092767;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 767.98px){
+  .emerge h3 {
+    font-size: 40px;
+    /* line-height: 98px; */
+    color: #092767;
+    font-weight: 600;
+  }
+}
+
+.emerge h6 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #092767;
+  font-weight: 500;
+}
+
+@media (min-width: 992px){
+  .emergency {
+    padding: 0px 193px;
+  } 
+}
+
+@media (max-width: 767.98px){
+  .emergency {
+    padding: 0px 40px;
+  } 
+}
+
+@media (min-width: 992px){
+  .down-emerge {
+    margin-top: 360px!important;
+  }
+}
+
+.coolcrowd {
+  padding: 100px 20px;
+}
+
+.coolcrowd h2 {
+  font-size: 70px;
+  line-height: 100px;
+  color: #092767;
+  font-weight: 600;
+}
+
+.left-water {
+  background-color: #F59E0B;
+  /* padding: 200; */
+}
+
+@media (min-width: 992px){
+  .leftside {
+    padding: 250px 170px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .leftside {
+    padding: 110px 20px;
+  }
+}
+
+.right-water {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 0px;
+  background-image: url("./assets/waterside.png");
+}
+
+.water h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.water h6 {
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.stand {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .stand h2 {
+    font-size: 85px;
+    line-height: 115px;
+    font-weight: 600;
+    color: #092767;
+  }
+}
+
+@media (max-width: 767.98px){
+  .stand h2 {
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #092767;
+  }
+}
+
+@media (min-width: 992px){
+  .ex {
+    padding: 170px 50px;
+  }
+}
+
+.stand h4 {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #092767;
 }
