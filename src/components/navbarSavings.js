@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo-white.svg";
 import savings from "../assets/s.svg";
 import loan from "../assets/l.svg";
 import invest from "../assets/i.svg";
