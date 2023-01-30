@@ -282,11 +282,22 @@ nav.navbar {
   color: #fff;
 }
 
+.navinvest {
+  background-color: #092767!important;
+}
+
 .navsave {
   background-color: #2563EB!important;
 }
 
 .navsave .nav-link {
+  color: #fff!important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  line-height: 24px;
+}
+
+.navinvest .nav-link {
   color: #fff!important;
   font-size: 14px!important;
   font-weight: 500!important;
