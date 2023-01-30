@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import Savings from './pages/savings';
 import ScrollTop from './scrollTop';
+import Loans from './pages/loans';
 // import ScrollTop from './scrollTop.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/savings" element={<Savings/>}></Route>
+        <Route path="/loans" element={<Loans/>}></Route>
       </Routes>
     </ScrollTop>
 

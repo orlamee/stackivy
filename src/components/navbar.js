@@ -49,13 +49,13 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/savings" className="d-flex flex-row p-2">
+                    <Link to="/invest" className="d-flex flex-row p-2">
                       <img src={invest} alt="save" className="img-fluid me-3" />
                       <h6>Investment</h6>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/savings" className="d-flex flex-row p-2">
+                    <Link to="/loans" className="d-flex flex-row p-2">
                       <img src={loan} alt="save" className="img-fluid me-3" />
                       <h6>Loans</h6>
                     </Link>

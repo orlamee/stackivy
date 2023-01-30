@@ -326,6 +326,7 @@ nav.navbar {
 .btn-save {
   background: #fff!important;
   color: #092767!important;
+  border-color: #fff!important;
 }
 
 .savebetter {
@@ -518,4 +519,58 @@ nav.navbar {
   .herotop {
     margin-top: 120px!important;
   }
+}
+
+@media (max-width: 767.98px){
+  .s-loan {
+    background-color: #C6B5F2;
+    padding: 220px 40px;
+  }
+
+  .b-loan {
+    background-color: #FEC0A7;
+    padding: 220px 40px;
+  }
+
+  .p-loan {
+    background-color: #EBF3F9;
+    padding: 220px 40px;
+  }
+}
+
+@media (min-width: 992px){
+  .s-loan {
+    background-color: #C6B5F2;
+    padding: 220px 140px;
+  }
+
+  .b-loan {
+    background-color: #FEC0A7;
+    padding: 220px 140px;
+  }
+
+  .p-loan {
+    background-color: #EBF3F9;
+    padding: 220px 140px;
+  }
+}
+
+.typeloans {
+  padding-top: 90px;
+}
+
+.l-heading {
+  color: #092767;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.l-text {
+  color: #092767;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
