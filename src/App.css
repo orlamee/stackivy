@@ -155,6 +155,10 @@ nav.navbar {
   padding-top: 90px;
 }
 
+.loan {
+  padding-top: 120px;
+}
+
 @media (min-width: 992px){
   .downing {
     padding-top: 100px;
@@ -573,4 +577,73 @@ nav.navbar {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 50px;
+}
+
+.getaccess {
+  padding: 90px 20px;
+}
+
+.getaccess h2 {
+  color: #092767;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.getloans {
+  background-color: #F3F4F6;
+  padding: 100px 10px;
+}
+
+.getloans h5 {
+  color: #092767;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px; 
+}
+
+.getloans h2 {
+  color: #092767;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px; 
+}
+
+.getloans p {
+  color: #9CA3AF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; 
+}
+
+.loan-cards {
+  background: #E5E7EB;
+  border-radius: 8px;
+  padding: 26px;
+}
+
+.loan-cards h1 {
+  color: #092767;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;  
+}
+
+.int {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.int h2 {
+  color: #092767;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px; 
+}
+
+.int p {
+  color: #9CA3AF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; 
 }
