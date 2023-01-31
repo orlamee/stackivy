@@ -16,6 +16,7 @@ import SignUp from './pages/signup';
 import EmailVerification from './pages/emailVerification';
 import Setpassword from './pages/setPassword';
 import Login from './pages/login';
+import AboutUs from './pages/aboutUs';
 // import ScrollTop from './scrollTop.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,6 +35,7 @@ root.render(
         <Route path="/otp" element={<EmailVerification/>}></Route>
         <Route path="/set-password" element={<Setpassword/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
+        <Route path="/about-us" element={<AboutUs/>}></Route>
       </Routes>
     </ScrollTop>
 
