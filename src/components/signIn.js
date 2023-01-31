@@ -34,7 +34,7 @@ function Signin() {
                       </div>
                       <Link
                         className="btn btn-primary rounded-pill px-4 py-3 w-100"
-                        to="/otp"
+                        to=""
                       >
                         Log In
                       </Link>
