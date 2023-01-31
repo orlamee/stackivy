@@ -12,6 +12,10 @@ import Invest from './pages/invest';
 import Terms from './pages/terms';
 import Privacy from './pages/privacy';
 import FAQ from './pages/faq';
+import SignUp from './pages/signup';
+import EmailVerification from './pages/emailVerification';
+import Setpassword from './pages/setPassword';
+import Login from './pages/login';
 // import ScrollTop from './scrollTop.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,6 +30,10 @@ root.render(
         <Route path="/terms" element={<Terms/>}></Route>
         <Route path="/privacy" element={<Privacy/>}></Route>
         <Route path="/faq" element={<FAQ/>}></Route>
+        <Route path="/sign-up" element={<SignUp/>}></Route>
+        <Route path="/otp" element={<EmailVerification/>}></Route>
+        <Route path="/set-password" element={<Setpassword/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
       </Routes>
     </ScrollTop>
 

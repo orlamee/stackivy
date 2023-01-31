@@ -97,7 +97,7 @@ function NavbarSavings() {
               <li className="nav-item">
                 <Link
                   className="btn btn-primary btn-save rounded-pill px-4 py-2"
-                  to="/"
+                  to="/sign-up"
                 >
                   Create Account
                 </Link>
