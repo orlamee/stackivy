@@ -658,3 +658,77 @@ nav.navbar {
   font-weight: 500;
   line-height: 32px; 
 }
+
+.hero-invest {
+  padding: 250px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/bg-invest.svg");
+}
+
+@media (min-width: 992px){
+  .hero-invest h2 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px; 
+  }
+}
+
+@media (max-width: 767.98px){
+  .hero-invest h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px; 
+  }
+}
+
+.hero-invest h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; 
+}
+
+.termsbreadcrumb {
+  padding: 200px 20px;
+  background-color: #E3EBFC;
+}
+
+.termsbreadcrumb h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 73px; 
+  color: #092767;
+}
+
+.termsbreadcrumb h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px; 
+  color: #092767;
+}
+
+.termscontent {
+  padding: 100px 20px;
+}
+
+.termscontent p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; 
+  color: #6B7280;
+}
+
+.termscontent h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px; 
+  color: #092767;
+}
+
+.termscontent h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px; 
+  color: #092767;
+}

@@ -27,14 +27,14 @@ function Footer() {
                   <h4>Company</h4>
                   <ul className="list-unstyled links">
                     <li><Link to="/">About us</Link></li>
-                    <li><Link to="/">FAQS</Link></li>
+                    <li><Link to="/faq">FAQS</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">
                   <h4>Transparency</h4>
                   <ul className="list-unstyled links">
-                    <li><Link to="/">Terms & conditions</Link></li>
-                    <li><Link to="/">Privacy policy</Link></li>
+                    <li><Link to="/terms">Terms & conditions</Link></li>
+                    <li><Link to="/privacy">Privacy policy</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">

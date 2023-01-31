@@ -9,6 +9,9 @@ import Savings from './pages/savings';
 import ScrollTop from './scrollTop';
 import Loans from './pages/loans';
 import Invest from './pages/invest';
+import Terms from './pages/terms';
+import Privacy from './pages/privacy';
+import FAQ from './pages/faq';
 // import ScrollTop from './scrollTop.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +23,9 @@ root.render(
         <Route path="/savings" element={<Savings/>}></Route>
         <Route path="/loans" element={<Loans/>}></Route>
         <Route path="/invest" element={<Invest/>}></Route>
+        <Route path="/terms" element={<Terms/>}></Route>
+        <Route path="/privacy" element={<Privacy/>}></Route>
+        <Route path="/faq" element={<FAQ/>}></Route>
       </Routes>
     </ScrollTop>
 
