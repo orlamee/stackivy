@@ -726,9 +726,117 @@ nav.navbar {
   color: #092767;
 }
 
+.growbusiness h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px; 
+  color: #092767;
+}
+
+.growbusiness {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.growbusiness h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34px; 
+  color: #9CA3AF;
+}
+
 .termscontent h4 {
   font-size: 30px;
   font-weight: 600;
   line-height: 30px; 
   color: #092767;
+}
+
+.gb {
+  background: #2563EB;
+  border-radius: 24px;
+  padding: 90px 40px;
+}
+
+.gb h6 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px; 
+}
+
+.gb p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; 
+}
+
+.gb-outline {
+  padding: 40px 20px;
+  border: 1px solid #E5E7EB;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.gb-outline h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 70px; 
+  color: #092767;
+}
+
+.ss h2 {
+  color: #F43F5E;
+  font-size: 22px;
+  line-height: 83px;
+  font-weight: 400;
+}
+
+.ss h3 {
+  color: #092767;
+  font-size: 60px;
+  line-height: 83px;
+  font-weight: 500;
+}
+
+.ss-cards h3 {
+  color: #092767;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.ss-cards p {
+  color: #092767;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.ss-cards {
+  background: #FEF7E1;
+  border-radius: 10px;
+  padding: 80px 30px;
+}
+
+.one-c {
+  background: #FAD76B!important;
+  border-color: #FAD76B!important;
+}
+
+.two-c {
+  background: #9C7FE6!important;
+  border-color: #9C7FE6!important;
+}
+
+.three-c {
+  background: #FB8484!important;
+  border-color: #FB8484!important;
+}
+
+.o {
+  padding: 250px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/o.svg");
 }
