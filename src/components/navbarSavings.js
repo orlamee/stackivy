@@ -83,13 +83,13 @@ function NavbarSavings() {
                 </Link>
                 <ul className="dropdown-menu navdrop">
                   <li>
-                    <Link to="/savings" className="d-flex flex-row p-2">
+                    <Link to="/about-us" className="d-flex flex-row p-2">
                       <img src={about} alt="save" className="img-fluid me-3" />
                       <h6>About Us</h6>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/invest" className="d-flex flex-row p-2">
+                    <Link to="/faq" className="d-flex flex-row p-2">
                       <img src={faq} alt="save" className="img-fluid me-3" />
                       <h6>FAQ</h6>
                     </Link>

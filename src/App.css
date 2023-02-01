@@ -992,3 +992,31 @@ nav.navbar {
   font-weight: 500;
   color: #E6E6E6;
 }
+
+.aboutbanner {
+  padding: 250px 20px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/about.svg");
+}
+
+.aboutbanner h2 {
+  font-size: 60px;
+  line-height: 73px;
+  font-weight: 500;
+}
+
+.aboutbanner h6 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.mission {
+  padding: 250px 20px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/mission.svg");
+}
