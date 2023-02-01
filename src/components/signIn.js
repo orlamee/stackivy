@@ -3,7 +3,7 @@ function Signin() {
   return (
     <section className="">
       <div className="d-lg-flex half">
-        <div className="bg order-1 order-md-1 new-aside"></div>
+        <Link to="/" className="bg order-1 order-md-1 new-aside"></Link>
         <div className="contents order-2 order-md-2">
           <div className="container">
             <div className="row align-items-center justify-content-center">
