@@ -29,8 +29,17 @@ function Signin() {
                       <div className="mb-4">
                         <input type="email" className="form-control l-control" placeholder="Email Address"/>
                       </div>
-                      <div className="mb-5">
+                      <div className="mb-4">
                         <input type="password" className="form-control l-control" placeholder="Password"/>
+                      </div>
+                      <div className="mb-5 fp">
+                        <div className="form-check agree">
+                          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                          <label className="form-check-label" htmlFor="flexCheckDefault">
+                            Remember me
+                          </label>
+                        </div>
+                        <Link to="/forgot-password" className="float-end" style={{marginTop: "-21px"}}>Forgot Password</Link>
                       </div>
                       <Link
                         className="btn btn-primary rounded-pill px-4 py-3 w-100"

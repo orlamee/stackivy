@@ -1123,3 +1123,9 @@ nav.navbar {
   line-height: 19px;
   color: #092767;
 }
+
+.fp a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}

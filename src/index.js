@@ -17,6 +17,8 @@ import EmailVerification from './pages/emailVerification';
 import Setpassword from './pages/setPassword';
 import Login from './pages/login';
 import AboutUs from './pages/aboutUs';
+import ResetPassword from './pages/resetPassword';
+import SetNewPassword from './pages/setNewPassword';
 // import ScrollTop from './scrollTop.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,6 +38,8 @@ root.render(
         <Route path="/set-password" element={<Setpassword/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/about-us" element={<AboutUs/>}></Route>
+        <Route path="/forgot-password" element={<ResetPassword/>}></Route>
+        <Route path="/set-new-password" element={<SetNewPassword/>}></Route>
       </Routes>
     </ScrollTop>
 
