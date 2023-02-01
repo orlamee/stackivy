@@ -3,8 +3,9 @@ import logo from "../assets/logo.svg";
 import savings from "../assets/s.svg";
 import loan from "../assets/l.svg";
 import invest from "../assets/i.svg";
+import faq from "../assets/a.svg";
+import about from "../assets/f.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 function Navbar() {
@@ -79,6 +80,20 @@ function Navbar() {
                 >
                   Company 
                 </Link>
+                <ul className="dropdown-menu navdrop">
+                  <li>
+                    <Link to="/savings" className="d-flex flex-row p-2">
+                      <img src={about} alt="save" className="img-fluid me-3" />
+                      <h6>About Us</h6>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/invest" className="d-flex flex-row p-2">
+                      <img src={faq} alt="save" className="img-fluid me-3" />
+                      <h6>FAQ</h6>
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/learn-more" target="_blank">
