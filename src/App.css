@@ -1014,9 +1014,29 @@ nav.navbar {
 }
 
 .mission {
-  padding: 250px 20px;
+  padding: 100px 20px;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("./assets/mission.svg");
+}
+
+.bg-m {
+  padding: 135px 60px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/ourmission.svg");
+  border-radius: 10px;
+}
+
+.bg-m h4 {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+}
+.bg-m  h6{
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
 }
