@@ -1014,7 +1014,7 @@ nav.navbar {
 }
 
 .mission {
-  padding: 100px 20px;
+  padding: 150px 20px;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -1035,8 +1035,91 @@ nav.navbar {
   line-height: 59px;
   font-weight: 700;
 }
+
 .bg-m  h6{
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+}
+
+.vision {
+  background-image: url("./assets/vision.svg")!important;
+}
+
+
+.values {
+  padding: 100px 60px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/corevalue.svg");
+}
+
+.bg-core {
+  padding: 49px 45px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/pp.svg");
+}
+
+.rightie {
+  background-image: url("./assets/rightie.svg")!important;
+}
+
+.bg-core h4 {
+  font-size: 18px;
+  color: #092767;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.values h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+
+.bg-services {
+  padding: 70px 40px;
+}
+
+.bg-services:hover {
+  padding: 70px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bg-services h3 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #092767;
+}
+
+.bg-services p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #092767;
+}
+
+.ourproducts {
+  background-color: #F9F9F9;
+  padding: 100px 20px;
+}
+
+.ourproducts h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  color: #092767;
+}
+
+.ourproducts h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #092767;
 }
