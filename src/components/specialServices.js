@@ -10,7 +10,8 @@ function SpecialServices() {
         <div className="row">
           <div className="col-md-10">
             <h2>SPECIAL SERVICES</h2>
-            <h3>We offer the best financial assistance for your educational needs.</h3>
+            <h3>We Provide Best Facility For Personal Wishes.</h3>
+            <p>We offer the best financial assistance for your educational needs.</p>
           </div>
         </div>
         <div className="row loans">
