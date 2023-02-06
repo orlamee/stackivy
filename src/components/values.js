@@ -15,24 +15,24 @@ function Values() {
               <h4>PROFESSIONALISM</h4>
             </div>
             <div className="bg-core mb-4">
-              <h4>LOYALTY</h4>
+              <h4>PROBLEM SOLVING</h4>
             </div>
             <div className="bg-core mb-4">
-              <h4>INTEGRITY</h4>
+              <h4>EMOTIONAL INTELLIGENCE</h4>
             </div>
             <div className="bg-core mb-4">
-              <h4>TEAM SPIRIT </h4>
+              <h4>COMMITMENT </h4>
             </div>
           </div>
           <div className="col-md-6">
             <div className="bg-core rightie text-end mb-4">
-              <h4>PROBLEM SOLVING</h4>
+              <h4>INTEGRITY</h4>
             </div>
             <div className="bg-core rightie text-end mb-4">
-              <h4>COMMITMENT</h4>
+              <h4>LOYALTY</h4>
             </div>
             <div className="bg-core rightie text-end mb-4">
-              <h4>EMOTIONAL INTTELIGENCE</h4>
+              <h4>TEAMSPIRIT</h4>
             </div>
             <div className="bg-core rightie text-end mb-4">
               <h4>INNOVATION </h4>

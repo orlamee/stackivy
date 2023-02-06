@@ -7,7 +7,7 @@ function GetLoans() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mb-5 downing">
-            <h5 className="mb-5">Get access to funds and enjoy the seamless lifestyle you deserve</h5>
+            <h5 className="mb-5">Calculate stackivy's interest on your loans</h5>
             <p className="mb-5">Checkout our loan interest, using our loan calculator.</p>
             <Link
               className="btn btn-primary rounded-pill px-5 py-3"
@@ -22,8 +22,8 @@ function GetLoans() {
         </div>
         <div className="row downing mt-5">
           <div className="col">
-            <h2>Grow Your Business With Stackivy</h2>
-            <p>Build a successfil business by joining several fast -growing business and watch you sales increase by 40%</p>
+            <h2>A solid investment with great returns</h2>
+            <p>You can have best of both worlds when you invest in stackivy. A reliable investment portfolio and mouthwatering returns.</p>
           </div>
         </div>
         <div className="row loans">

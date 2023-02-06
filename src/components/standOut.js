@@ -6,7 +6,7 @@ function Standout() {
       <div className="container">
         <div className="row">
           <div className="col-md-10">
-            <h2>Stand out with excellent financial portfolios</h2>
+            <h2>Did you know that investing in the right business can 10X your net worth?</h2>
           </div>
         </div>
         <div className="row save-top">
@@ -15,7 +15,7 @@ function Standout() {
           </div>
           <div className="col-md-6">
             <div className="ex">
-              <h4>By saving with stackivy, you can build a financial portfolios that stands out, giving you more freedom to pursue your dream.</h4>
+              <h4>With Stackivy, you have that business that could make all the difference.</h4>
             </div>
           </div>
         </div>
