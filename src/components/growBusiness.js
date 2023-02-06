@@ -18,7 +18,7 @@ function GrowBusiness() {
           <div className="col-md-4 mb-3">
             <div className="gb">
               <h6 className="text-white">Grow Your Business With Stackivy Loan</h6>
-              <p className="mt-3 text-white">Build a successfil business by joining several fast -growing business and watch you sales increase </p>
+              <p className="mt-3 text-white">Build a successful business by joining several fast -growing business and watch you sales increase </p>
             </div>
           </div>
           <div className="col-md-8">
